@@ -1,0 +1,9 @@
+header {
+    background-color: darkred;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: bisque;
+    padding: 30px;
+    box-sizing: border-box;
+    border-bottom: 10px solid bisque;
+}
