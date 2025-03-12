@@ -1,4 +1,4 @@
-const collection = [
+export const collection = [
     {
         name: "Manual Neuer",
         number: 1,
