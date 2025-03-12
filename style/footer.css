@@ -1,0 +1,10 @@
+footer {
+    background-color: darkred;
+    padding: 30px;
+    box-sizing: border-box;
+    border-top: 10px solid bisque;
+}
+ ul {
+    display: flex;
+    justify-content: center;
+ }
