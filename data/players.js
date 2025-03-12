@@ -6,6 +6,7 @@ export const collection = [
         nationality: "German",
         bio: "Manuel Neuer has been the FCB keeper since 2011. The Gelsenkirchen native started out at his hometown club Schalke 04. In 2011 and 2014, he was named German Player of the Year, as well as being voted the Best FIFA Goalkeeper in 2020. Among other things, he's won the treble twice (2013 and 2020) with the men from Munich, and since 2017 he's worn the captain's armband at the record champions. In 2014, Manuel Neuer won the World Cup in Brazil with the German national team.",
         image: "assets/manuel_neuer.png",
+        instagram: "https://www.instagram.com/manuelneuer/",
     },
     {
         name: "Dayot Upamecano",
@@ -14,6 +15,7 @@ export const collection = [
         nationality: "French",
         bio: "Dayot Upamecano has been at Bayern since summer 2021. The central defender was born in France and started his professional career at RB Salzburg. He later moved to Leipzig in the Bundesliga, where he played for a total of four years before joining the record champions.",
         image: "assets/dayot_upamecano.png",
+        instagram: "https://www.instagram.com/upamecano/",
     },
     {
         name: "Alphonso Davies",
@@ -22,6 +24,7 @@ export const collection = [
         nationality: "Canadian",
         bio: "Alphonso Davies was born in Ghana and grew up in Canada. He started his professional career at Vancouver Whitecaps and joined FC Bayern at the beginning of 2019. He won the treble with the men from Munich in 2020. ",
         image: "assets/alphonso_davies.png",
+        instagram: "https://www.instagram.com/alphonsodavies/",
     },
     {
         name: "Hiroki Ito",
@@ -30,6 +33,7 @@ export const collection = [
         nationality: "Japanese",
         bio: "Hiroki Ito has been an FC Bayern player since July 2024. The Japanese, who can play both in the centre and on the left of defence as well as in defensive midfield, previously spent three years at VfB Stuttgart. Ito made 97 appearances in all competitions for the Swabians, scoring two goals, and established himself as a reliable and technically gifted defender in the Bundesliga. The left-footer began his career at boyhood club Júbilo Iwata, for whom he made his professional debut in a J.League Cup match against Hokkaido Consadole Sapporo in April 2018. He stayed there, except for a loan move to Nagoya Grampus in 2019, until his move to Germany in summer 2021.",
         image: "assets/hiroki_ito.png",
+        instagram: "https://www.instagram.com/hiroki_ito38/",
     },
     {
         name: "Joshua Kimmich",
@@ -38,6 +42,7 @@ export const collection = [
         nationality: "German",
         bio: "Joshua Kimmich plays as a defensive midfielder for FC Bayern. At the age of 12 he left his hometown club VfB Bösingen to join the VfB Stuttgart academy. After six years he left for Leipzig, before moving to Munich in 2015. He’s won the double multiple times with Bayern as well as the treble in 2020.",
         image: "assets/joshua_kimmich.png",
+        instagram: "https://www.instagram.com/jok_32/",
     },
     {
         name: "Jamal Musiala",
@@ -46,6 +51,7 @@ export const collection = [
         nationality: "German",
         bio: "Jamal Musiala initially moved from Chelsea's youth team to the FC Bayern youth set-up in the summer of 2019. After just a few months there, the forward was called up to the senior squad and, at the age of 17, progressed to become the youngest ever Bundesliga debutant, Bundesliga goalscorer and Champions League goalscorer within just a few months.",
         image: "assets/jamal_musiala.png",
+        instagram: "https://www.instagram.com/jamalmusiala10/",
     },
     {
         name: "Harry Kane",
@@ -54,6 +60,7 @@ export const collection = [
         nationality: "English",
         bio: "Harry Kane moved from Tottenham Hotspur to FC Bayern in August 2023. With the exception of a few short loan spells, the London-born striker went in search of goals for the Lillywhites for almost 20 years (2004-2023) and became Spurs' record goalscorer with 280 in all competitive fixtures. With 213 goals in the English top flight, the forward was the most successful scorer in Premier League history after Alan Shearer (260 goals in 441 games) at the time of his move to Munich. In 2019, he reached the Champions League final with Tottenham for the first time in the club's history, but Spurs lost 2-0 to Liverpool.",
         image: "assets/harry_kane.png",
+        instagram: "https://www.instagram.com/harrykane/",
     },
     {
         name: "Kingsley Coman",
@@ -62,6 +69,7 @@ export const collection = [
         nationality: "French",
         bio: "Kingsley Coman is a winger who’s been with FC Bayern since 2015. The France international previously played for Juventus. He was trained in the academy of Paris Saint-Germain, where he also played his first professional games. Before his move to the German record champions, Coman had already won both the French and Italian championships.",
         image: "assets/kingsley_coman.png",
+        instagram: "https://www.instagram.com/king/",
     },
     {
         name: "Michael Olise",
@@ -70,6 +78,7 @@ export const collection = [
         nationality: "French",
         bio: "Michael Olise has been an FC Bayern player since July 2024. The France youth international was born in London and mostly plays on the right wing. He spent time in the academies of Arsenal, Chelsea, Manchester City and Reading, before making his senior debut with the latter in the English Championship. Good displays at that level saw him move up to the Premier League with Crystal Palace in summer 2021. Olise became a regular at Selhurst Park before his summer 2024 move to Munich. The winger has so far represented France at U18 and U21 level.",
         image: "assets/michael_olise.png",
+        instagram: "https://www.instagram.com/m.olise/",
     },
     {
         name: "Thomas Muller",
@@ -78,5 +87,6 @@ export const collection = [
         nationality: "German",
         bio: "Thomas Müller joined the FC Bayern youth set-up from TSV Pähl in 2000, and has worn the jersey of the German record champions since making his senior debut in the summer of 2008, making him the longest-serving player in the squad. In both 2013 and 2020, the club icon won the treble of Champions League, Bundesliga and DFB Cup with Bayern, and following his 11th league title in the summer of 2022, he's the most successful Bundesliga player in history.",
         image: "assets/thomas_muller.png",
+        instagram: "https://www.instagram.com/esmuellert/",
     },
 ]
