@@ -1,0 +1,64 @@
+main {
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.players-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.player {
+    background-color: burlywood;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px black;
+    font-size: 0.8rem;
+}
+
+.player:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: darkred;
+}
+
+.player > img {
+    display: block;
+    width: 90%; 
+    margin: auto; 
+    background: radial-gradient(ellipse at center, yellow,#A0342F );  
+    border-radius: 20px;
+}
+
+.player > a > img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+
+.player h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.player .container {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #A0342F;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player p {
+    text-align: center;
+}
