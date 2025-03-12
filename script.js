@@ -20,7 +20,7 @@ function createCards() {
         </div>
         <p>${player.bio}</p>
         <hr>
-        <a href="${player.instagram}" target="_blank"><img src="assets/instagram_logo.png" alt="Instagram Logo"></a>
+        <a href="${player.instagram}" target="_blank"><img src="assets/instagram_logo_white.png" alt="Instagram Logo"></a>
         `;
 
         container.appendChild(newSection);
