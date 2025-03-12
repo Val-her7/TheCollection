@@ -1,7 +1,13 @@
 import {collection} from "./data/players.js";
 
-function createCards() {
+function createCards(position = "all") {
+    
     const main = document.querySelector("main");
+    let containerAlreadyExists = main.querySelector(".players-container");
+    if(containerAlreadyExists) {
+        containerAlreadyExists.remove();
+    }
+
     const container = document.createElement("div");
     container.classList.add("players-container");
 
@@ -22,10 +28,23 @@ function createCards() {
         <hr>
         <a href="${player.instagram}" target="_blank"><img src="assets/instagram_logo_white.png" alt="Instagram Logo"></a>
         `;
-
-        container.appendChild(newSection);
+        if (position === "all") {
+            container.appendChild(newSection);
+        } else if(position !== player.position.toLowerCase()) {
+            continue;
+        } else {
+            container.appendChild(newSection);
+        }        
     }
     main.appendChild(container);
-    console.log(container.children)
-}
+    }
 createCards();
+
+
+const event = document.addEventListener("change", function () {
+    let position = document.getElementById("position").value;
+    createCards(position);
+    })   
+
+
+
