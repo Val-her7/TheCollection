@@ -22,7 +22,7 @@ function createCards(position = "all") {
         newSection.id = playerId;
 
         newSection.innerHTML =
-        `<img src="${player.image}">
+        `<img src="${player.image}" alt="${player.name}">
         <h2>${player.name}</h2>
         <div class="container">
             <p>${player.number}</p><p>${player.position}</p><p>${player.nationality}</p>
