@@ -3,6 +3,10 @@ main {
     background-color: #A0342F;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .players-container {
@@ -18,12 +22,20 @@ main {
     padding: 10px;
     border: solid 1px white;
     font-size: 0.8rem;
+    position: relative;
+    color: #A0342F;
 }
 
 .player:hover {
     cursor: pointer;
     transform: scale(1.03);
     background-color: darkred;
+    color: white;
+}
+
+.player:hover .container {
+    background-color: bisque;
+    color: #A0342F;
 }
 
 .player > img {
@@ -57,8 +69,20 @@ main {
     background-color: #A0342F;
     display: flex;
     justify-content: space-evenly;
+    color: white;
 }
 
 .player p {
     text-align: center;
+}
+
+ main button {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    border: hidden;
+}
+
+main button:hover {
+    background-color: lightcoral;
 }
