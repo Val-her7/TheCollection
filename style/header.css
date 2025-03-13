@@ -1,9 +1,30 @@
 header {
     background-color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     color: bisque;
     padding: 30px;
     box-sizing: border-box;
     border-bottom: 10px solid bisque;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
+select, button {
+    background-color: bisque;
+    padding: 5px;
+    font-weight: bold;
+    color: darkred;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: darkred;
+    color: bisque;
+}
+
+
+
+
