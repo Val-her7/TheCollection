@@ -16,7 +16,7 @@ function createCards(position = "all") {
 
     for(let player of copie) {
         const newSection = document.createElement("section");
-        newSection.classList.add("player", player.position.toLowerCase());
+        newSection.classList.add("player");
 
         const playerId = player.name.replace(/\s/, "-");
         newSection.id = playerId;
