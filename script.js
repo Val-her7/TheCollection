@@ -19,7 +19,6 @@ function createCards(position = "all") {
         newSection.classList.add("player");
 
         const playerId = player.name.replace(/\s/, "-");
-        // newSection.id = playerId;
 
         newSection.innerHTML =
         `<img src="${player.image}" alt="${player.name}">
