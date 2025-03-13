@@ -11,4 +11,6 @@ The Collection is a web project showcasing a personalized collection of Bayern M
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript
+- JavaScript  
+
+![Bayern team winning a competition](assets/Champions%20League%20Football%20GIF%20by%20FC%20Bayern%20Munich.gif)
