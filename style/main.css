@@ -86,3 +86,9 @@ main {
 main button:hover {
     background-color: lightcoral;
 }
+
+@media (max-width: 480px) {
+    .players-container {
+        max-width: 80vw;
+    }
+}
