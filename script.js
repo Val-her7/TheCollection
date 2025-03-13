@@ -19,7 +19,7 @@ function createCards(position = "all") {
         newSection.classList.add("player");
 
         const playerId = player.name.replace(/\s/, "-");
-        newSection.id = playerId;
+        // newSection.id = playerId;
 
         newSection.innerHTML =
         `<img src="${player.image}" alt="${player.name}">
@@ -30,7 +30,7 @@ function createCards(position = "all") {
         <p>${player.bio}</p>
         <hr>
         <a href="${player.instagram}" target="_blank"><img src="assets/instagram_logo_white.png" alt="Instagram Logo"></a>
-        <button type="button" id="${newSection.id}" class="button"><img src="assets/bin.png" alt="Bin Logo"></button>
+        <button type="button" id="${playerId}" class="button"><img src="assets/bin.png" alt="Bin Logo"></button>
         `;
         if (position === "all") {
             container.appendChild(newSection);
